@@ -2,6 +2,7 @@
 
 using System;
 using ConsoleApp1.Day1;
+using ConsoleApp1.Day2;
 
 public class Program
 {
@@ -11,5 +12,9 @@ public class Program
         Day1 day1 = new Day1();
         day1.part1();
         day1.part2();
+
+        Day2 day2 = new Day2();
+        day2.Part1();
+        day2.Part2();
     }
 }
